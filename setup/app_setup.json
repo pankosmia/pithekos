@@ -1,0 +1,17 @@
+{
+  "clients": [
+    {
+      "path": "/home/mark/repos/pankosmia/core-client-dashboard"
+    },
+    {
+      "path": "/home/mark/repos/pankosmia/core-client-settings",
+      "exclude-from-menu": true
+    },
+    {
+      "path": "/home/mark/repos/pankosmia/core-client-remote-repos"
+    },
+    {
+      "path": "/home/mark/repos/pankosmia/core-client-workspace"
+    }
+  ]
+}

@@ -14,9 +14,11 @@ fn rocket1() -> () {
         working_dir = args[1].clone();
     };
     let webfont_path = relative!("../webfonts");
+    let app_setup_path = relative!("../setup/app_setup.json");
     let conf = json!({
         "working_dir": working_dir,
-        "webfont_path": webfont_path
+        "webfont_path": webfont_path,
+        "app_setup_path": app_setup_path
     });
     let builder = rocket(conf);
     rt.block_on(
