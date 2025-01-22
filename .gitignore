@@ -1,4 +1,5 @@
 .idea/
+setup/local_setup.json
 # Logs
 logs
 *.log
