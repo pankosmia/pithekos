@@ -8,7 +8,7 @@ This repo pulls together several libraries and projects into a single Tauri app.
 pankosmia
 -- pithekos
 -- core-client-dashboard
--- core-client-setup
+-- core-client-settings
 -- core-client-workspace
 -- core-client-remote-repos
 ```
@@ -22,6 +22,15 @@ Pankosmia-web serves compiled files from the `build` directory of each client, s
 # In each client repo, NOT this repo!
 npm install
 npm run build
+```
+
+## Required libraries
+With Ubuntu 24.04 you may need
+```
+sudo apt install libglib2.0-dev
+sudo apt install libpango1. 0-dev
+sudo apt install libwebkit2gtk-4.1-dev
+sudo apt install libatk1.0-dev
 ```
 
 ## Running in dev mode
