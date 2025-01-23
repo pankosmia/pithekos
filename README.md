@@ -7,10 +7,10 @@ This repo pulls together several libraries and projects into a single Tauri app.
 ```
 pankosmia
 -- pithekos
--- core-client-dashboard
--- core-client-settings
--- core-client-workspace
--- core-client-remote-repos
+-- core-client-dashboard repo
+-- core-client-settings repo
+-- core-client-workspace repo 
+-- core-client-remote-repos repo
 ```
 
 *It Should Just Work* if your pankosmia directory is under `repos` under your user directory, ie `/home/myname/repos/pankosmia` in Linux.
