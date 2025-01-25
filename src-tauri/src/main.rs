@@ -69,5 +69,5 @@ fn rocket1() -> () {
 }
 fn main() {
     std::thread::spawn(move || rocket1());
-    pithekos_lib::run()
+    pithekos_app_lib::run()
 }
