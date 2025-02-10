@@ -1,42 +1,43 @@
-/* Copyright (c) 2002-2011, David J. Perry (hospes02@scholarsfonts.net).*/
+/* This Font Software is Copyright (c) 1995-2015, SIL International (http://scripts.sil.org/) with Reserved Font Names "Galatia" and "SIL".
 /* This Font Software is licensed under the SIL Open Font License, Version 1.1. See https://openfontlicense.org/ .*/
+/* ttf converted to woff2 with https://cloudconvert.com/ttf-to-woff2 */
 
 /* normal */
 @font-face {
-  font-family: 'Pankosmia-Cardo';
+  font-family: 'Pankosmia-Galatia SIL';
   font-style: normal;
   font-weight: normal; /* 400 Normal (Regular) */
-  src: url(./cardo/Cardo-Regular.woff2);
+  src: url(./galatia/GalSILR.woff2);
   unicode-range: U+1F00-1FFF, U+10140-1018F;
   font-display: swap;
 }
 
 /* italic */
 @font-face {
-  font-family: 'Pankosmia-Cardo';
+  font-family: 'Pankosmia-Galatia SIL';
   font-style: italic;
   font-weight: normal; /* 400 Normal (Regular) */
-  src: url(./cardo/Cardo-Italic.woff2);
+  src: url(./galatia/GalSILR.woff2);
   unicode-range: U+1F00-1FFF, U+10140-1018F;
   font-display: swap;
 }
 
 /* bold */
 @font-face {
-  font-family: 'Pankosmia-Cardo';
+  font-family: 'Pankosmia-Galatia SIL';
   font-style: normal;
   font-weight: bold; /* 700 */
-  src: url(./cardo/Cardo-Bold.woff2);
+  src: url(./galatia/GalSILB.woff2);
   unicode-range: U+1F00-1FFF, U+10140-1018F;
   font-display: swap;
 }
 
 /* bold italic */
 @font-face {
-  font-family: 'Pankosmia-Cardo';
+  font-family: 'Pankosmia-Galatia SIL';
   font-style: italic;
   font-weight: bold; /* 700 */
-  src: url(./cardo/Cardo-Bold.woff2);
+  src: url(./galatia/GalSILB.woff2);
   unicode-range: U+1F00-1FFF, U+10140-1018F;
   font-display: swap;
 }
