@@ -3184,9 +3184,9 @@ dependencies = [
 
 [[package]]
 name = "pankosmia_web"
-version = "0.2.3"
+version = "0.2.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b677a641dbb8ac5ad538c4a30fb9c0b89ec7cf9eacbc14eb64130ecf2e7562a8"
+checksum = "69c7eb7fbf5548da68256c36f224153bec1bef9617be2e593740f68f41f1ab06"
 dependencies = [
  "copy_dir",
  "fs",
@@ -3880,6 +3880,7 @@ dependencies = [
  "rocket_codegen",
  "rocket_http",
  "serde",
+ "serde_json",
  "state",
  "tempfile",
  "time",
