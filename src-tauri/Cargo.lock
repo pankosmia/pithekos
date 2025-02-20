@@ -3184,9 +3184,9 @@ dependencies = [
 
 [[package]]
 name = "pankosmia_web"
-version = "0.3.0"
+version = "0.3.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "dcb84892d4aed74ce5e434cbed9e2924fddf33b557863ae6d7a885e163999848"
+checksum = "6a77942189cddf41828338ab126c1410964168a6321461083878ee6da6c2613b"
 dependencies = [
  "copy_dir",
  "fs",
@@ -3432,7 +3432,7 @@ dependencies = [
 
 [[package]]
 name = "pithekos"
-version = "0.2.3"
+version = "0.3.0"
 dependencies = [
  "home",
  "pankosmia_web",
