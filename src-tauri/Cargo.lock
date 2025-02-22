@@ -3196,15 +3196,16 @@ dependencies = [
 
 [[package]]
 name = "pankosmia_web"
-version = "0.3.4"
+version = "0.3.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "9da00cd1e9f9483373381cde7993706fd76e9a4e82e60c79074e7f9475d902ff"
+checksum = "d9795cb925a306829847ecd36298472f1c5e26c53279ccc0ca98f306373e8122"
 dependencies = [
  "copy_dir",
  "fs",
  "git2",
  "hallomai",
  "home",
+ "regex",
  "rocket",
  "rocket-multipart-form-data",
  "s2n-quic",
