@@ -17,10 +17,10 @@ pankosmia
 *It Should Just Work* if your pankosmia directory is under `repos` under your user directory, ie `/home/myname/repos/pankosmia` in Linux.
 
 The `setup` directory contains
-- app_setup.json - this defines the list of clients to be used within Pithekos. Changing this file changes Pithekos for everyone. Keep the variable substitution so that the project works for everyone.
-- local_setup.json - this file is auto-generated the first time you run Pithekos. Do not commit it! You may change the path to your pankosmia directory here if necessary.
+- `app_setup.json` - this defines the list of clients to be used within Pithekos. Changing this file changes Pithekos for everyone. Keep the variable substitution so that the project works for everyone.
+- `local_setup.json` - this file is auto-generated the first time you run Pithekos. Do not commit it! You may change the path to your pankosmia directory here if necessary.
 
-For testing you may add clients to the `my_clients` array, eg
+For testing you may add clients to the `my_clients` array in `user_settings.json` in `pankosmia_working`, eg
 ```
 "my_clients": [
     {"path": "/path/to/my/client/buildDir"}
