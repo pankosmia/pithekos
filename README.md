@@ -38,7 +38,7 @@ npm run build
 With Ubuntu 24.04 you may need
 ```
 sudo apt install libglib2.0-dev
-sudo apt install libpango1. 0-dev
+sudo apt install libpango1.0-dev
 sudo apt install libwebkit2gtk-4.1-dev
 sudo apt install libatk1.0-dev
 ```
