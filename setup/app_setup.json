@@ -12,6 +12,9 @@
     },
     {
       "path": "%%PANKOSMIADIR%%/core-client-workspace"
+    },
+    {
+      "path": "%%PANKOSMIADIR%%/core-client-i18n-editor"
     }
   ]
 }
