@@ -52,7 +52,7 @@ sudo apt install libatk1.0-dev
 - npm 10.7.0
 - node 18.20.4
 - rustc 1.83.0 -- See https://www.rust-lang.org/tools/install
-- cmake 3.31.0 -- See https://cmake.org/download/
+- cmake 3.31.0 -- _Version 3 is required._ See https://cmake.org/download/
 
 ## Running in dev mode
 ```
