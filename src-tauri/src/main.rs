@@ -27,6 +27,7 @@ fn rocket1() -> () {
     let webfont_path = relative!("../webfonts");
     let app_setup_path = relative!("../setup/app_setup.json");
     let local_setup_path = relative!("../setup/local_setup.json");
+    let app_resources_path = relative!("..");
     let local_setup_path_exists = Path::new(&local_setup_path).is_file();
     // Create local setup file if necessary (excluded from git)
     if !local_setup_path_exists {
@@ -58,7 +59,8 @@ fn rocket1() -> () {
         "working_dir": working_dir,
         "webfont_path": webfont_path,
         "local_setup_path": local_setup_path,
-        "app_setup_path": app_setup_path
+        "app_setup_path": app_setup_path,
+        "app_resources_path": app_resources_path,
     });
     let builder = rocket(conf);
     rt.block_on(

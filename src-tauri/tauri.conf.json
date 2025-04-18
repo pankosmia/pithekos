@@ -36,7 +36,8 @@
       "../webfonts/*",
       "../webfonts/*/*",
       "../setup/*",
-      "../templates/*"
+      "../templates/*",
+      "../../core-client-dashboard/build/*"
     ]
   }
 }
