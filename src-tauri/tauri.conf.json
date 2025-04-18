@@ -32,12 +32,20 @@
       "icons/icon.icns",
       "icons/icon.ico"
     ],
+    "linux": {
+      "appimage": {
+        "files": {
+          "/usr/lib/x86_64-linux-gnu/webkit2gtk-4.1/injected-bundle/libwebkit2gtkinjectedbundle.so": "/lib/x86_64-linux-gnu/webkit2gtk-4.1/injected-bundle/libwebkit2gtkinjectedbundle.so"
+        }
+      }
+    },
     "resources": [
       "../webfonts/*",
       "../webfonts/*/*",
       "../setup/*",
       "../templates/*",
-      "../../core-client-dashboard/build/*"
+      "../../core-client-dashboard/build/*",
+      "Rocket.toml"
     ]
   }
 }
