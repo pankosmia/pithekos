@@ -27,12 +27,12 @@ For testing you may add clients to the `my_clients` array in `user_settings.json
   ],
 ```
 
-Pankosmia-web serves compiled files from the `build` directory of each client, so you need to build each client:
+_Pankosmia-web serves compiled files from the `build` directory of each client, so you need to build each client:
 ```
 # In each client repo, NOT this repo!
 npm install
 npm run build
-```
+```_
 
 ## Required libraries
 With Ubuntu 24.04 you may need
