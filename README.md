@@ -9,6 +9,7 @@ pankosmia
 -- pithekos
 -- core-client-dashboard repository
 -- core-client-settings repository
+-- core-client-content repository 
 -- core-client-workspace repository 
 -- core-client-remote-repos repository
 -- core-client-i18n-editor repository
