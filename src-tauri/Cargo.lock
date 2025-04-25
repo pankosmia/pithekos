@@ -3204,9 +3204,9 @@ dependencies = [
 
 [[package]]
 name = "pankosmia_web"
-version = "0.8.0"
+version = "0.8.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d216663ae406383808d5b4d821941fe7632122307122215dc51e12dcbf489266"
+checksum = "fb13883ed23f72af924936481f136f01f393856e992128db0d3007e8043735b5"
 dependencies = [
  "chrono",
  "copy_dir",
